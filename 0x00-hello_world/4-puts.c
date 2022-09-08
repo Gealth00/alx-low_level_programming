@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *  *main- Serves as the entry point
- *  **Return: By default returns zero if no erros otherwise returns non-zero value.
+ *  **Return: By default returns zero otherwise returns non-zero
 */
 int main(void)
 {
