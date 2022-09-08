@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /* *main- Serves as entry point
  * *Return- By defult returns zero
 */
