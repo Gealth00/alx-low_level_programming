@@ -13,23 +13,20 @@ int main(void)
 {
 
 	int n;
-	printf(Enter the value of n: );
-	scanf(%d, &n);
 	if 
 		{
 			n==0;
-		printf(%d is zero, n);
+		printf(%d is zero\n, n);
 		}
 	else if 
 		{
 			n>0;
-		printf(%d is poisitive, n);
+		printf(%d is poisitive\n, n);
 		}
 	else 
 		{
-		printf(%d is negative);
+		printf(%d is negative\n, n);
 		}
-	return (0);
 
 
 
