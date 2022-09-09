@@ -11,7 +11,7 @@
 int main(void) {
 
 	int n;
-	printf("Enter value of n: ");
+	printf(" ");
 	scanf("%d", &n);
 	if(n == 0 ) {
 	printf("%d is zero", n);
