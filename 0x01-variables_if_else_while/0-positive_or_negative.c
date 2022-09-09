@@ -11,6 +11,8 @@
 int main(void) {
 
 	int n;
+	printf("Enter the value of n: ");
+	scanf("%d", &n);
 	if(n == 0 ) {
 	printf("is zero\n");
 	} else if(n < 0 ) {
