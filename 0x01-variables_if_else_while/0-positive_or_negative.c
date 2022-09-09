@@ -15,10 +15,12 @@ int main(void) {
 	scanf("%d", &n); 
  	if(n == 0) {
 	printf("is zero");
-	} else if(n < 0 ) {
+	} else if( n < 0 ) {
 	printf("is negative");
-	} else {
+	} else if( n > 0 ){
 	printf("is positive");
+	} else{
+	printf("invalid");
 	}
 
 	srand(time(0));
