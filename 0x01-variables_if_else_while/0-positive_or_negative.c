@@ -8,20 +8,26 @@
 
 /* betty style doc for function main goes there */
 
-int main(void) {
+int main(void)
+
+{
 
 	int n;
-	printf(" ");
-	scanf("%d", &n);
-	if(n == 0 ) {
-	printf("is zero");
+	printf(" ");  
+	scanf("%d", &n); 
+ 	if(n == 0); {
+	printf("%d is zero\n", n);
 	} else if(n < 0 ) {
-	printf("is negative\n");
+	printf("%d is negative\n", n);  			
 	} else {
-	printf("is positive\n");
+	printf("%d is positive\n", n);
 	}
 
-/* your code goes there */
+	srand(time(0));
+
+	n = rand() - RAND_MAX / 2;
+
+	/* your code goes there */
 
 return (0);
 }
