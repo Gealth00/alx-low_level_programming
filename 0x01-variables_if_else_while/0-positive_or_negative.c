@@ -20,10 +20,6 @@ int main(void) {
 	} else {
 	printf("%d is positive\n", n);
 	}
-	
-	srand(time(0));
-
-	n = rand() - RAND_MAX / 2;
 
 /* your code goes there */
 
