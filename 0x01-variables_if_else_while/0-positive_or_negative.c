@@ -8,9 +8,7 @@
 
 /* betty style doc for function main goes there */
 
-int main(void)
-
-{
+int main(void) {
 
 	int n;
 	if(n == 0 ) {
