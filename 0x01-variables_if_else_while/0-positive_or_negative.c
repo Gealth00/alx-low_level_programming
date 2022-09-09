@@ -15,19 +15,18 @@ int main(void)
 	int n;
 	if 
 		{
-			n==0;
-		printf(%d is zero\n, n);
+			(n==0);
+		printf(is zero);
 		}
 	else if 
 		{
-			n>0;
-		printf(%d is poisitive\n, n);
+			(n>0);
+		printf(is poisitive);
 		}
 	else 
 		{
-		printf(%d is negative\n, n);
+		printf(is negative);
 		}
-
 
 
 	srand(time(0));
@@ -37,3 +36,4 @@ int main(void)
 /* your code goes there */
 
 return (0);
+}
