@@ -7,8 +7,8 @@
  * main- entry for variable if else statement
  * Return: Always return zero
 */
-int main(void) {
-
+int main(void)
+{
 	int n;
 	int l;
 	
