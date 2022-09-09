@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-#nclude <stdio.h>
+#include <stdio.h>
 /* betty style doc for function main goes there */
 /**
  * main- entry for variable if else statement
