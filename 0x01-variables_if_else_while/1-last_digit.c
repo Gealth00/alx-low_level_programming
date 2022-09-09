@@ -7,7 +7,7 @@
  * main- entry for variable if else statement
  * Return: Always return zero
 */
-void main
+int main
 {
 	int n;
 	int l;
