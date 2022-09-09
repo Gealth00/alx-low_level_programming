@@ -23,7 +23,7 @@ int main(void) {
 	} else if( n > 0 ){
 	printf("is positive\n", n);
 	} else{
-	printf("invalid\n", &n);
+	printf("invalid\n", n);
 	}
 
 	/* your code goes there */
