@@ -11,13 +11,13 @@ int main(void)
 	int n;
 	int l;
 
-	for (l = 'a'; l <= 'f'; l++)
-	{
-		putchar(l);
-	}
 	for (n = 48; n <= 58; n++)
 	{
 		putchar(n);
+	}
+	for (l = 'a'; l <= 'f'; l++)
+	{
+		putchar(l);
 	}
 	putchar ('\n');
 	return (0);
