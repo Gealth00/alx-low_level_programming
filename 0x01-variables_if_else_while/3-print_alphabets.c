@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype>
+#include <stdlib.h>
 
 /**
  *  * main - program that prints the alphabet in lowercas and uppercase,
@@ -8,7 +8,9 @@
 */
 
 int main(void)
-	int l,z;
+{
+	int l='a';
+	int z= 'A';
 	
 	while (l <= 'z')
 	{
@@ -22,4 +24,4 @@ int main(void)
 	}
 	putchar ('\n');
 	return (0);
-
+}
