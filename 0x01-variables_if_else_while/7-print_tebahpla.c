@@ -2,17 +2,17 @@
 #include <stdlib.h>
 /**
  * main - program that prints the lowercase alphabet in reverse
- * Return: return 0
+ * Return: return zero it  is sucessful
 */
 
 int main(void)
 {
 	int i;
 
-	for(i = 'z'; i >= 'a'; i--)
+	for (i = 'z'; i >= 'a'; i--)
 	{
 		putchar(i);
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
