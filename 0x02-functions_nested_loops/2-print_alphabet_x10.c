@@ -17,6 +17,7 @@ while (l <= 'z')
 {
 	putchar(l);
 l += 1;
+}
 putchar(10);
 n =+ 1;
 }
