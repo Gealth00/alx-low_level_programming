@@ -5,8 +5,8 @@
  * main - function that prints the alphabet, in lowercase and a new line
  * Return: void print_alphabet(void)
 */
-
-void print_alphabet(void)
+int main()
+void print_alphabet(void);
 {
 	char i;
 
@@ -15,4 +15,5 @@ void print_alphabet(void)
 		putchar(i);
 	}
 	putchar("\n");
+	return (0);
 }
