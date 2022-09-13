@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - function that prints the alphabet, in lowercase and a new line
+ * prit_alphabet - function that prints the alphabet, in lowercase and a new line
  * Return: void print_alphabet(void)
 */
 
@@ -13,4 +13,5 @@ void print_alphabet(void)
 
 	for (i = 'a'; i <= 'z'; i++)
 		putchar(i);
+	putchar('\n');
 }
