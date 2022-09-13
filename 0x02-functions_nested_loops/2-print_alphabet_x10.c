@@ -14,13 +14,11 @@ int n = 0;
 
 while (n < 10)
 {
-	l = 'a';
-while (l <= 'z')
+	for (l = 'a'; l <= 'z'; l++)
 {
 	putchar(l);
-l += 1;
 }
-putchar(10);
+putchar('\n');
 n =+ 1;
 }
 }
