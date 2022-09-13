@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include "main.h"
+/**
+ * main - program that prints _putchar, followed by a new line
+ * return: return 0
+*/
 
 int main(void)
+
 {
 	printf("_putchar\n");
-return 0;
+return (0);
 }
