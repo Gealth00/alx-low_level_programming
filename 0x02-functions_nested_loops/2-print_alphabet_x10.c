@@ -7,7 +7,7 @@
 */
 
 void print_alphabet_x10(void);
-
+int main()
 {
 
 	int l;
@@ -19,4 +19,5 @@ void print_alphabet_x10(void);
 		putchar(l);
 		putchar('\n');
 	}
+	return (0);
 }
