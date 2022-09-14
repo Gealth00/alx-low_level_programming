@@ -8,10 +8,13 @@
 */
 
 int print_last_digit(int n)
-{
-	int l;
 
-	l = n % 10;
-	printf("%d", l);
-	return (l);
+{
+int last;
+
+last = n % 10;
+if (last < 0)
+last = last * -1;
+putchar(last + '0');
+return (last);
 }
