@@ -14,11 +14,10 @@ int print_sign(int n)
 	else if (n == 0)
 	{
 	printf("00");
-	return (0);
 	}
 	else
 	{
 	printf("1");
-	return (-1);
 	}
+	return ('n');
 }
