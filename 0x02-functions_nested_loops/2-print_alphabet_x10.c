@@ -15,7 +15,7 @@ int n;
 for (n = 0; n <= 0; n++)
 {
 	for (l = 'a'; l <= 'z'; l++)
-		putchar(l);
+	putchar(l);
+	putchar('\n');
 }
-putchar('\n');
 }
