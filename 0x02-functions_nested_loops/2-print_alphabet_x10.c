@@ -6,18 +6,15 @@
  * Return: void
 */
 
-void print_alphabet_x10(void);
-int main()
-{
+void print_alphabet_x10(void)
 
 	int l;
-	int n;
+	int p;
 
-	for (n = 1; n <= 10; n++)
-	{
+	for (p = 1; p <= 10; p++)
+{
 	for (l = 'a'; l <= 'z'; l++)
-		putchar(l);
-		putchar('\n');
-	}
-	return (0);
+	putchar(l);
+	putchar('\n');
+}
 }
