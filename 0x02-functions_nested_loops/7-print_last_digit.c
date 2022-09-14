@@ -5,7 +5,7 @@
  * @x: The input number to check
  * Return: int
 */
-
+int n;
 int print_last_digit(int n)
 
 {
