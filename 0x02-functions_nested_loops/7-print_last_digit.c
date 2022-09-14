@@ -12,5 +12,6 @@ int last;
 
 last = n % 10;
 _putchar(last);
+_putchar('\n');
 return (last);
 
