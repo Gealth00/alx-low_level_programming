@@ -6,13 +6,13 @@
 
 void times_table(void)                                         
 
-	int a;
-	int b;                                                 
+	int x;
+	int y;                                                 
 
-	for (a = 0; a < 10; a++)
+	for (x = 0; x < 10; x++)
 	{
 	
-		for (b = 0; b < 10; b++)
+		for (y = 0; y < 10; y++)
 		{
 			product = x * y;
 			if (y != 0)
