@@ -10,8 +10,8 @@ int print_sign(int n)
 	if (n > 0)
 	{
 	printf("+1");
-	return (1);
 	}
+	return(1);
 	else if (n == 0)
 	{
 	printf("00");
@@ -19,7 +19,7 @@ int print_sign(int n)
 	}
 	else
 	{
-	printf("-1");
+	printf("1");
 	return (-1);
 	}
 }
