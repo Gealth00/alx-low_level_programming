@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_most_numbers - prints the numbers 0-9
@@ -7,7 +6,8 @@
  * Return: Always 0.
 */
 
-void print_most_numbers(void)
+void print_most_numbers(void);
+
 {
 	char i;
 
